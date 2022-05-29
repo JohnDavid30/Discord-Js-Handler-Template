@@ -2,7 +2,7 @@
 
 
 
-[![replit](https://cdn.discordapp.com/attachments/900313074203000883/980371695972012092/1653809222071.jpg)](https://repl.it/github/MrrVit665/Discord-Js-Handler-Template)
+[![replit](https://repl.it/badge/github/MrrVit665/Discord-Js-Handler-Template)](https://repl.it/github/MrrVit665/Discord-Js-Handler-Template)
 
 ***
 
