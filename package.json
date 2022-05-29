@@ -1,5 +1,6 @@
 {
-  "name": "discord-bot-slash",
+  "name": "Discord-Js-Handler-Template",
+  "author": "JohnDavid#0009",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
