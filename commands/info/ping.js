@@ -11,7 +11,7 @@ module.exports = {
           
         .setTitle(`${client.user.tag}: Ping `)
         .addField(`Client ping:`, `${client.ws.ping}`)
-        .setDescription(`All copyright and content are under Limsathya San`);
+        .setDescription(`All copyright and content are under JohnDavid`);
         interaction.reply({ embeds: [reloadembed]})
     },
 }; 
