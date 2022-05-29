@@ -10,8 +10,7 @@ module.exports = {
         const reloadembed = new MessageEmbed()
           
         .setTitle(`${client.user.tag}: Ping `)
-        .addField(`Client ping:`, `${client.ws.ping}`)
-        .setDescription(`All copyright and content are under JohnDavid`);
+        .addField(`Client ping:`, `${client.ws.ping}`);
         interaction.reply({ embeds: [reloadembed]})
     },
 }; 
