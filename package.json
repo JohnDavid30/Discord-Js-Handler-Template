@@ -2,7 +2,7 @@
   "name": "Discord-Js-Handler-Template",
   "author": "JohnDavid#0009",
   "version": "1.0.0",
-  "description": "",
+  "description": "An advance Discord-js-handler for Slash and Normal Commands!",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
