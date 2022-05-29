@@ -32,6 +32,7 @@ const client = new Discord.Client({
 });
 const config = require("./botconfig/config.json");
 // ———————————————[Client Export]———————————————
+client.embedColor = "#303236";
 client.commands = new Discord.Collection();
 client.cooldowns = new Discord.Collection();
 client.slashCommands = new Discord.Collection();
