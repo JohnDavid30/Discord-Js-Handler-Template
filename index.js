@@ -32,6 +32,7 @@ const client = new Discord.Client({
 });
 const config = require("./botconfig/config.json");
 // ———————————————[Client Export]———————————————
+client.owner = client.developersId;
 client.embedColor = "#303236";
 client.commands = new Discord.Collection();
 client.cooldowns = new Discord.Collection();
@@ -45,4 +46,4 @@ client.commands = new Discord.Collection();
     require(`./handlers/${h}`)(client);
   });
 // ———————————————[Client Login]———————————————
-client.login(process.env.token);
+client.login(config.token || process.env.token);
